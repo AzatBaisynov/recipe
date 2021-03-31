@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.app {
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn {
+  height: 40px;
+  width: 140px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 30px;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  background: #070707;
+  height: 72px;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-left: 42px;
+  text-decoration: none;
+}
+
+.header__left_btn {
+  border: 2px solid #40AB7E;
+  margin-left: 26px;
+  color: #40AB7E;
+  background: none;
+}
+
+.header__right_btn {
+  background: #7CBA72;
+  border: 2px solid #7CBA72;
+  margin-left: 14px;
+}
+
+.footer {
+  background: #404149;
+  height: 82px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer__text {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.menu {
+  padding: 30px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu__title {
+  margin-bottom: 16px;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 39px;
+}
+
+.recipe__title {
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 29px;
+}
+
+.recipe__item {
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
 }
